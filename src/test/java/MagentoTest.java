@@ -11,7 +11,9 @@ import org.testng.annotations.Test;
 public class MagentoTest {
 	@Test
 	public void testrun() {
+		
 		WebDriver driver=new ChromeDriver();
+		// test
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.magento.com");
